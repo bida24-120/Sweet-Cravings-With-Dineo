@@ -801,3 +801,107 @@ nav ul{
 }
 
 }
+
+
+
+/* =========================
+   RESPONSIVE FIXES (ADD-ON)
+   ========================= */
+
+/* Prevent horizontal scrolling issues */
+body{
+    overflow-x:hidden;
+}
+
+/* Make images scale properly */
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* -------------------------
+   TABLET + MOBILE GENERAL
+   ------------------------- */
+@media (max-width: 1024px){
+
+    /* Reduce large spacing on big sections */
+    .about-hero,
+    .contact-hero,
+    .gallery-hero,
+    .reviews-hero,
+    .products-hero{
+        padding:80px 5%;
+    }
+
+}
+
+/* -------------------------
+   MOBILE DEVICES
+   ------------------------- */
+@media (max-width: 768px){
+
+    /* NAVBAR STACK */
+    nav{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        gap:10px;
+        padding:0;
+    }
+
+    /* HERO TEXT SIZES */
+    .about-hero h1,
+    .contact-hero h1,
+    .gallery-hero h1,
+    .reviews-hero h1,
+    .products-hero h1{
+        font-size:32px;
+    }
+
+    /* PRODUCT / GRID STACKING */
+    .products-grid,
+    .gallery-grid,
+    .reviews-grid,
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+    /* ABOUT SECTION STACK */
+    .baker-section{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    /* BUTTONS FULL WIDTH FEEL */
+    .order-btn,
+    .whatsapp-btn,
+    .review-btn{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+/* -------------------------
+   SMALL PHONES (VERY SMALL)
+   ------------------------- */
+@media (max-width: 480px){
+
+    h1{
+        font-size:28px;
+    }
+
+    h2{
+        font-size:22px;
+    }
+
+    p{
+        font-size:14px;
+    }
+
+}
