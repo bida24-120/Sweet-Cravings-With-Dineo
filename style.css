@@ -257,77 +257,78 @@ nav ul{
 }
 
 }
-
 /* PRODUCTS PAGE */
 
-.page-banner{
+.products-hero{
     text-align:center;
-    padding:80px 10%;
+    padding:80px 10% 40px;
 }
 
-.page-banner h1{
-    font-size:55px;
-    font-family:'Playfair Display';
+.products-hero h1{
+    font-size:60px;
+    font-family:'Playfair Display', serif;
     color:#B76E79;
 }
 
-.page-banner p{
-    margin-top:15px;
+.products-hero p{
+    max-width:700px;
+    margin:20px auto;
+    line-height:1.8;
 }
 
-.products-page{
-    padding:50px 8%;
+/* Product Layout */
+
+.products-grid{
+    width:90%;
+    margin:auto;
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:30px;
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+    gap:35px;
+    padding-bottom:80px;
 }
 
-.product-card{
+/* Cards */
+
+.product-box{
     background:white;
     border-radius:25px;
     overflow:hidden;
-    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
     transition:0.4s;
 }
 
-.product-card:hover{
-    transform:translateY(-10px);
+.product-box:hover{
+    transform:translateY(-12px);
 }
 
-.product-card img{
+.product-box img{
     width:100%;
-    height:250px;
+    height:260px;
     object-fit:cover;
+    transition:0.5s;
 }
 
-.product-card h3{
-    padding:15px;
+.product-box:hover img{
+    transform:scale(1.05);
 }
 
-.product-card p{
-    padding:0 15px;
+.product-box h3{
+    text-align:center;
+    margin-top:20px;
+    font-size:24px;
 }
 
-.product-card span{
+.product-box p{
+    text-align:center;
+    padding:15px 25px;
+    color:#666;
+}
+
+.product-box span{
     display:block;
-    font-size:22px;
-    font-weight:bold;
+    text-align:center;
+    font-size:26px;
+    font-weight:600;
     color:#B76E79;
-    padding:15px;
-}
-
-.product-card button{
-    width:90%;
-    margin:15px;
-    padding:12px;
-    border:none;
-    border-radius:25px;
-    background:#B76E79;
-    color:white;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-.product-card button:hover{
-    background:#a85764;
+    padding-bottom:25px;
 }
