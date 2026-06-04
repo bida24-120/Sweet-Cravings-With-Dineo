@@ -332,3 +332,146 @@ nav ul{
     color:#B76E79;
     padding-bottom:25px;
 }
+
+/* ABOUT PAGE */
+
+.about-hero{
+    text-align:center;
+    padding:100px 10%;
+}
+
+.about-hero h1{
+    font-size:60px;
+    font-family:'Playfair Display', serif;
+    color:#B76E79;
+}
+
+.about-hero p{
+    margin-top:20px;
+}
+
+.story-section{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    line-height:1.9;
+    padding-bottom:80px;
+}
+
+.story-section h2{
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+.story-section p{
+    margin-bottom:20px;
+}
+
+.baker-section{
+    width:90%;
+    margin:auto;
+    display:flex;
+    gap:50px;
+    align-items:center;
+    padding:80px 0;
+}
+
+.baker-image{
+    flex:1;
+}
+
+.baker-image img{
+    width:100%;
+    border-radius:25px;
+}
+
+.baker-info{
+    flex:1;
+}
+
+.baker-info h2{
+    color:#B76E79;
+}
+
+.baker-info h3{
+    margin:15px 0;
+    font-size:35px;
+}
+
+.mission-vision{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    padding:80px 0;
+}
+
+.mv-card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.services-section{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.service-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    font-size:30px;
+}
+
+.why-section{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.why-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    font-size:30px;
+}
+
+.about-cta{
+    text-align:center;
+    padding:100px 10%;
+}
+
+.about-cta h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.about-cta p{
+    margin-bottom:30px;
+}
+
+@media(max-width:900px){
+
+.baker-section{
+    flex-direction:column;
+    text-align:center;
+}
+
+}
