@@ -660,3 +660,144 @@ nav ul{
     margin-bottom:30px;
     line-height:1.8;
 }
+/* REVIEWS PAGE */
+
+.reviews-hero{
+    text-align:center;
+    padding:100px 10% 60px;
+}
+
+.reviews-hero h1{
+    font-size:60px;
+    color:#B76E79;
+    font-family:'Playfair Display', serif;
+}
+
+.reviews-hero p{
+    margin-top:20px;
+}
+
+.rating-summary{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    padding-bottom:60px;
+}
+
+.rating-card{
+    background:white;
+    padding:40px 60px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.rating-card h2{
+    font-size:40px;
+    color:#FFD700;
+}
+
+.reviews-grid{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    padding-bottom:80px;
+}
+
+.customer-review{
+    background:white;
+    padding:30px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.customer-review:hover{
+    transform:translateY(-8px);
+}
+
+.stars{
+    color:#FFD700;
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.customer-review h4{
+    margin-top:20px;
+    color:#B76E79;
+}
+
+.review-form-section{
+    width:70%;
+    margin:auto;
+    text-align:center;
+    padding-bottom:80px;
+}
+
+.review-form-section h2{
+    font-size:45px;
+    color:#B76E79;
+    font-family:'Playfair Display', serif;
+}
+
+.review-intro{
+    margin:15px 0 30px;
+}
+
+.review-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea{
+    padding:18px;
+    border:none;
+    border-radius:15px;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.review-form textarea{
+    min-height:180px;
+    resize:none;
+}
+
+.review-form button{
+    background:#B76E79;
+    color:white;
+    border:none;
+    padding:18px;
+    border-radius:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.review-form button:hover{
+    background:#a55d69;
+}
+
+.thank-you-review{
+    text-align:center;
+    padding:80px 10%;
+}
+
+.thank-you-review h2{
+    font-size:40px;
+    font-family:'Playfair Display', serif;
+    color:#B76E79;
+    margin-bottom:20px;
+}
+
+@media(max-width:900px){
+
+.review-form-section{
+    width:90%;
+}
+
+}
