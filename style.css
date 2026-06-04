@@ -257,3 +257,77 @@ nav ul{
 }
 
 }
+
+/* PRODUCTS PAGE */
+
+.page-banner{
+    text-align:center;
+    padding:80px 10%;
+}
+
+.page-banner h1{
+    font-size:55px;
+    font-family:'Playfair Display';
+    color:#B76E79;
+}
+
+.page-banner p{
+    margin-top:15px;
+}
+
+.products-page{
+    padding:50px 8%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.product-card{
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.4s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+}
+
+.product-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.product-card h3{
+    padding:15px;
+}
+
+.product-card p{
+    padding:0 15px;
+}
+
+.product-card span{
+    display:block;
+    font-size:22px;
+    font-weight:bold;
+    color:#B76E79;
+    padding:15px;
+}
+
+.product-card button{
+    width:90%;
+    margin:15px;
+    padding:12px;
+    border:none;
+    border-radius:25px;
+    background:#B76E79;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.product-card button:hover{
+    background:#a85764;
+}
