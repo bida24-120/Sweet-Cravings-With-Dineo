@@ -544,3 +544,119 @@ nav ul{
     margin:auto;
     line-height:1.8;
 }
+/* CONTACT PAGE */
+
+.contact-hero{
+    text-align:center;
+    padding:100px 10% 60px;
+}
+
+.contact-hero h1{
+    font-size:60px;
+    font-family:'Playfair Display', serif;
+    color:#B76E79;
+}
+
+.contact-hero p{
+    margin-top:20px;
+}
+
+.contact-container{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+    padding-bottom:80px;
+}
+
+.contact-card{
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.contact-card h2{
+    margin-bottom:20px;
+    color:#B76E79;
+}
+
+.whatsapp-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.whatsapp-btn:hover{
+    transform:scale(1.05);
+}
+
+.services-contact{
+    text-align:center;
+    padding:60px 10%;
+}
+
+.services-contact h2{
+    font-size:42px;
+    margin-bottom:40px;
+    font-family:'Playfair Display', serif;
+    color:#B76E79;
+}
+
+.services-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.service-item{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.hours-section{
+    text-align:center;
+    padding:80px 10%;
+}
+
+.hours-section h2{
+    font-size:42px;
+    margin-bottom:30px;
+    color:#B76E79;
+    font-family:'Playfair Display', serif;
+}
+
+.hours-card{
+    max-width:400px;
+    margin:auto;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.contact-cta{
+    text-align:center;
+    padding:100px 10%;
+}
+
+.contact-cta h2{
+    font-size:48px;
+    margin-bottom:20px;
+    font-family:'Playfair Display', serif;
+}
+
+.contact-cta p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:30px;
+    line-height:1.8;
+}
